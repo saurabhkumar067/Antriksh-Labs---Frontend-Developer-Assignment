@@ -2,6 +2,7 @@ import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
 import SideBar from "@/components/SideBar";
 import Header from "@/components/Header";
+import { BioProvider } from "./contextApi/context";
 
 
 const geistSans = Geist({
@@ -25,15 +26,19 @@ export default function RootLayout({ children }) {
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
+        <BioProvider>
+
         <div className='grid lg:grid-cols-[12%_88%] md:grid-cols-[6%_94%] min-[320px]:grid-cols-[10%_90%] h-screen'>
         <SideBar/>
         <div id="taskList" className='md:overflow-hidden min-[320px]:overflow-scroll md:p-3 min-[320px]:p-1  bg-[#ede8e31a]'>
          <Header/>
-         <div className='shadow-xl rounded-xl h-[92%] md:mt-0 mt-2'>
+         <div className={`shadow-xl rounded-xl h-[92%] md:mt-0 mt-2 `}>
             {children}
           </div>
         </div>
       </div>
+      </BioProvider>
+
       </body>
     </html>
   );
