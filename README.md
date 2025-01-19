@@ -1,7 +1,3 @@
-Sure! Here's a more human-readable version of the documentation:
-
----
-
 # **Project Overview**
 
 This project is a simple task management application built using **Next.js** and **React**. It allows users to manage their tasks by categorizing them into different statuses: **Pending**, **In Progress**, and **Completed**. The application also features a light/dark mode toggle, dynamic task management, and an intuitive layout that adapts to different screen sizes.
