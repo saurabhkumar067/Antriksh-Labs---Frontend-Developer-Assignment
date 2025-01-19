@@ -1,0 +1,62 @@
+[
+  {
+    "id": 1,
+    "title": "Complete Assignment",
+    "description": "Frontend developer task",
+    "status": "In Progress"
+  },
+  {
+    "id": 2,
+    "title": "Review PRs",
+    "description": "Check and review pull requests for the team",
+    "status": "Pending"
+  },
+  {
+    "id": 3,
+    "title": "Write Documentation",
+    "description": "Create documentation for the new feature",
+    "status": "Completed"
+  },
+  {
+    "id": 4,
+    "title": "Team Meeting",
+    "description": "Discuss project updates with the team",
+    "status": "In Progress"
+  },
+  {
+    "id": 5,
+    "title": "Code Refactoring",
+    "description": "Improve code readability and structure",
+    "status": "Pending"
+  },
+  {
+    "id": 6,
+    "title": "Fix Bugs",
+    "description": "Resolve bugs reported by QA team",
+    "status": "In Progress"
+  },
+  {
+    "id": 7,
+    "title": "Design Feedback",
+    "description": "Prov'id'e feedback on the new UI designs",
+    "status": "Completed"
+  },
+  {
+    "id": 8,
+    "title": "Deploy Feature",
+    "description": "Deploy the new feature to staging environment",
+    "status": "In Progress"
+  },
+  {
+    "id": 9,
+    "title": "Update Dependencies",
+    "description": "Update project dependencies to the latest versions",
+    "status": "Pending"
+  },
+  {
+    "id": 10,
+    "title": "Research New Tools",
+    "description": "Look into new tools for frontend testing",
+    "status": "Completed"
+  }
+]
